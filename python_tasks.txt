@@ -1,0 +1,82 @@
+Metaclasses:
+Task: Implement a custom ORM (Object-Relational Mapping) framework using metaclasses. Design metaclasses that automatically generate database mappings based on class definitions.
+Decorators:
+Task: Develop a robust logging framework using decorators. Create decorators for logging function calls, measuring execution time, and handling exceptions.
+Concurrency and Parallelism:
+Task: Build a web scraper using both threading and asyncio. Compare performance and resource usage between the two approaches. Implement advanced synchronization techniques like asyncio.Lock for data consistency.
+Descriptors and Properties:
+Task: Design a data validation framework using descriptors and properties. Create custom descriptor classes that enforce type checking, range validation, and attribute constraints.
+Metaprogramming:
+Task: Develop a code generation tool that automatically generates Python classes based on a DSL (Domain-Specific Language). Use metaprogramming techniques to dynamically create class definitions.
+Custom Iterators and Generators:
+Task: Implement a memory-efficient data processing pipeline using custom iterators and generators. Apply lazy evaluation to process large datasets in a resource-efficient manner.
+Context Managers and with Statement:
+Task: Create a database connection context manager using the with statement. Ensure proper resource cleanup and exception handling within the context manager.
+Type Annotations and Type Hinting:
+Task: Refactor a large codebase with comprehensive type annotations. Use mypy to perform static type checking and identify potential type-related issues.
+Cython and C Extensions:
+Task: Optimize a computationally intensive Python function using Cython. Compile the function to a C extension and measure performance improvements compared to the pure Python implementation.
+Function and Class Decorators:
+Task: Implement a caching framework using decorators. Create decorators to cache the results of expensive function calls based on arguments and cache expiration policies.
+Memory Management:
+Task: Profile memory usage of a Python application using memory_profiler. Identify memory hotspots and optimize memory consumption using techniques like object pooling and efficient data structures.
+Advanced Python Libraries:
+Task: Develop a data analysis pipeline using numpy, pandas, and scikit-learn. Apply feature engineering, model training, and evaluation on a real-world dataset.
+Concurrency Libraries:
+Task: Build a real-time chat application using asyncio or Twisted. Implement message handling, user authentication, and chat room management with asynchronous I/O.
+Performance Optimization:
+Task: Profile the performance of a Python application using cProfile and line_profiler. Identify bottlenecks and apply optimizations such as algorithmic improvements and caching.
+Design Patterns:
+Task: Implement common design patterns (e.g., Singleton, Factory, Observer) in a Python application. Apply these patterns to improve code modularity, extensibility, and maintainability.
+Task 1: Set Up the Development Environment
+Objective: Configure a development environment for building and modifying CPython.
+Steps:
+Clone the CPython repository from GitHub: https://github.com/python/cpython
+Follow the build instructions specific to your operating system and platform.
+Set up an IDE or text editor with C/C++ syntax highlighting and debugging capabilities.
+Task 2: Modify a Built-in Function
+Objective: Gain hands-on experience by modifying the behavior of a built-in Python function.
+Steps:
+Choose a simple built-in function (e.g., len(), print()) to modify.
+Locate the source file (Objects/builtinmodule.c) corresponding to the function.
+Implement a custom behavior or enhancement for the function.
+Compile and test your modified interpreter to verify the changes.
+Task 3: Add a New Language Feature
+Objective: Extend Python's syntax or semantics by adding a new language feature.
+Steps:
+Choose a specific language feature to implement (e.g., a new syntax for list comprehensions).
+Study the parser (Parser/) and compiler (Python/) components of CPython.
+Modify the grammar specification (Grammar/) to accommodate the new feature.
+Implement the feature in the parser and compiler stages.
+Test the feature with sample code and ensure compatibility with existing codebase.
+Task 4: Explore Memory Management
+Objective: Understand Python's memory management mechanisms and optimize memory usage.
+Steps:
+Study the memory allocation and deallocation strategies in CPython (e.g., reference counting, garbage collection).
+Experiment with memory profiling tools (objgraph, gc) to analyze memory usage patterns.
+Implement a custom memory optimization (e.g., optimizing reference counting, introducing a new memory allocator).
+Task 5: Create a C Extension Module
+Objective: Develop a C extension module to integrate native code with Python.
+Steps:
+Review the Python/C API documentation.
+Choose a simple native function (e.g., mathematical computation) to expose to Python.
+Write C code for the extension module (Modules/).
+Build and test the extension module within the CPython interpreter.
+Task 6: Contribute to Python's Core Libraries
+Objective: Engage with the Python developer community and contribute to core libraries.
+Steps:
+Identify an area of interest within Python's standard library (Lib/).
+Browse open issues on the Python bug tracker (https://bugs.python.org/) or GitHub issues.
+Choose a bug fix or feature enhancement to work on.
+Submit a pull request with your proposed changes and participate in code reviews.
+Task 7: Dive into Advanced Topics
+Objective: Explore advanced topics to deepen your understanding of Python internals.
+Steps:
+Study interpreter optimization techniques (e.g., bytecode optimization, JIT compilation).
+Investigate threading and concurrency models in CPython (Python/thread.*).
+Experiment with custom data structures and algorithms implemented in C (e.g., collections module).
+Explore the implementation of Python's import system (importlib/).
+Additional Resources:
+Python Developer's Guide: https://devguide.python.org/
+CPython Internals: "Python Internals" by Anthony Shaw
+Online Courses and Tutorials: Explore platforms like Udemy, Coursera, or Pluralsight for CPython development courses.
